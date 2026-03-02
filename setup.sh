@@ -1,4 +1,4 @@
-
+#!/bin/bash
 # 1. System Install
 # Check if git is missing before updating to save time on reboots
 if ! command -v git &> /dev/null; then
