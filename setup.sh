@@ -27,7 +27,7 @@ else
 fi
 
 # Download Workflow (Overwrite existing)
-aws s3 cp "aws s3 cp "s3://$S3_BUCKET_NAME/workflow.json" .
+aws s3 cp "s3://$S3_BUCKET_NAME/workflow.json" .
 
 # 4. Install Custom Nodes
 mkdir -p custom_nodes
