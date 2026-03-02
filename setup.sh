@@ -1,7 +1,7 @@
 #!/bin/bash
 # 1. System Install
 # Check if git is missing before updating to save time on reboots
-if ! command -v git &> /dev/null; then
+if ! command -v aria2c &> /dev/null; then
     apt-get update && apt-get install -y git wget aria2 ffmpeg python3-pip
 fi
 
